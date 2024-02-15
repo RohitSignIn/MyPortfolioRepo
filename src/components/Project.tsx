@@ -14,7 +14,7 @@ const Project: React.FC<receivedProps> = ({ projectData }) => {
   return (
     <section
       title={projectData.title}
-      className='bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'
+      className='bg-background1 text-textColor1 bg-opacity-20 backdrop-blur-lg rounded-lg drop-shadow-lg overflow-hidden'
       onClick={() => openNewTab(projectData.url)}
     >
       <section>
@@ -27,7 +27,7 @@ const Project: React.FC<receivedProps> = ({ projectData }) => {
       </section>
       <section className='p-2 w-[200px]'>
         <h3>{projectData.title}</h3>
-        <p className='text-xs'>{projectData.description}</p>
+        <p className='text-xs text-textColor2'>{projectData.description}</p>
         <TechStackUsed list={projectData.techStackUsed} />
       </section>
     </section>

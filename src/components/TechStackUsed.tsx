@@ -15,7 +15,7 @@ const TechStackUsed: React.FC<receivedProps> = ({ list }) => {
         return (
           <p
             key={val}
-            className='bg-white mr-2 text-[#2d2d2d] font-medium py-1 px-2 mt-2 rounded-md'
+            className='bg-background1 mr-2 text-textColor4 font-medium py-1 px-2 mt-2 rounded-md'
           >
             <strong>{val}</strong>
           </p>

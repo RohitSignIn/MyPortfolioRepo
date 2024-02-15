@@ -12,7 +12,7 @@ interface receivedProps {
 
 const ProjectContainer: React.FC<receivedProps> = ({ title, projectsData }) => {
   return (
-    <section className='w-[80%] text-slate-200 mt-4'>
+    <section className='w-[80%] mt-4'>
       <h4 className='text-2xl py-4'>{title}</h4>
       <section className='flex gap-6 flex-wrap'>
         {projectsData.map((project) => {
