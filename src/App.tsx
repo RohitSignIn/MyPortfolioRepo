@@ -2,6 +2,7 @@ import ProjectContainer from "./components/ProjectContainer";
 import SocialLinks from "./components/SocialLinks";
 import FrontCard from "./components/FrontCard";
 import { liveProjects } from "./data/projectsData";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,11 @@ export default function App() {
       <section className='flex flex-col items-center w-full min-h-[100vh] pt-6 bg-background2 text-textColor1'>
         <ProjectContainer title='Live Projects' projectsData={liveProjects} />
         <ProjectContainer title='Peak Projects' projectsData={liveProjects} />
+      </section>
+
+      {/* Footer Starts */}
+      <section className='w-full h-[40vh]'>
+        <Footer />
       </section>
     </section>
   );
