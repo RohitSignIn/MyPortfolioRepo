@@ -46,14 +46,14 @@ export const miniGamesProjects = [
   },
   {
     url: "https://codepen.io/RohitSignIn/full/bGQprzr",
-    imgUrl: "../../public/projects/pingPong.png",
+    imgUrl: "/projects/pingPong.png",
     title: "Ping Pong",
     description: "",
     techStackUsed: ["Vanilla JS", "HTML", "CSS"],
   },
   {
     url: "https://codepen.io/RohitSignIn/full/bGQpNWq",
-    imgUrl: "../../public/projects/flappyBird.png",
+    imgUrl: "/projects/flappyBird.png",
     title: "Flappy Bird",
     description: "",
     techStackUsed: ["Vanilla JS", "HTML", "CSS"],
