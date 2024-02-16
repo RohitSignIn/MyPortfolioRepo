@@ -10,7 +10,7 @@ const Footer = () => {
           <section className='flex justify-evenly items-center rounded-lg backdrop-blur-lg border-b-2 border-t-2 border-borderColor p-8'>
             <section className='px-6'>
               <a
-                href='#'
+                href='mailto:bhagwan.signin@gmail.com'
                 className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
               >
                 <MdMail />
@@ -19,7 +19,7 @@ const Footer = () => {
 
             <section className='px-6'>
               <a
-                href='#'
+                href='https://api.whatsapp.com/send?phone=917424970024'
                 className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
               >
                 <IoLogoWhatsapp />
@@ -28,7 +28,7 @@ const Footer = () => {
 
             <section className='px-6'>
               <a
-                href='#'
+                href='tel:+917424970024'
                 className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
               >
                 <IoCall />

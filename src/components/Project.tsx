@@ -19,8 +19,7 @@ const Project: React.FC<receivedProps> = ({ projectData }) => {
     >
       <section>
         <img
-          width={200}
-          height={200}
+          className='w-[200px] h-[120px]'
           src={projectData.imgUrl}
           alt={projectData.title}
         />

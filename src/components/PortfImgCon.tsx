@@ -6,7 +6,7 @@ const PortfImgCon = () => {
     >
       <img
         className='rounded-[50%] w-[210px] h-[210px] lg:w-[260px] lg:h-[260px]'
-        src='https://media.licdn.com/dms/image/D4D03AQGiGR83GSU_sA/profile-displayphoto-shrink_400_400/0/1669192745072?e=1713398400&v=beta&t=FfWmlfbr8ILADeThictowsazMaRBWSxnxTvSEv-cFMs'
+        src='/profile.webp'
         alt='Bhagwan Singh'
       />
     </section>

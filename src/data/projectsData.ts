@@ -1,34 +1,116 @@
 export const liveProjects = [
   {
-    url: "https://rgbacolorpicker.com/",
-    imgUrl:
-      "https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "RHB COLOR Picker",
-    description: "Best Color Picker I Build",
-    techStackUsed: ["React", "Node", "JavaScript", "Python"],
+    url: "https://ecommerce-web-app-tau.vercel.app/",
+    imgUrl: "/projects/ecommerce.png",
+    title: "Ecommerce Web App",
+    description: "",
+    techStackUsed: ["ReactJS", "JWT Auth", "Custom CSS"],
   },
   {
-    url: "https://rgbacolorpicker.com/",
-    imgUrl:
-      "https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "RHB COLOR Picker",
-    description: "Best Color Picker I Build",
-    techStackUsed: ["React", "Node", "JavaScript", "Python"],
+    url: "https://movieworld-theta.vercel.app/",
+    imgUrl: "/projects/movieWorld.png",
+    title: "Movie Search Web App",
+    description: "",
+    techStackUsed: ["ReactJS", "Debounce", "CSS3"],
   },
   {
-    url: "https://rgbacolorpicker.com/",
-    imgUrl:
-      "https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "RHB COLOR Picker",
-    description: "Best Color Picker I Build",
-    techStackUsed: ["React", "Node", "JavaScript", "Python"],
+    url: "https://pokedex-iota-livid.vercel.app/",
+    imgUrl: "/projects/pokeDex.png",
+    title: "Poke Dex",
+    description: "",
+    techStackUsed: ["ReactJS", "SCSS"],
   },
   {
-    url: "https://rgbacolorpicker.com/",
-    imgUrl:
-      "https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "RHB COLOR Picker",
-    description: "Best Color Picker I Build",
-    techStackUsed: ["React", "Node", "JavaScript", "Python"],
+    url: "https://weather-web-app-delta.vercel.app/",
+    imgUrl: "projects/weatherApp.png",
+    title: "Weather Web App",
+    description: "",
+    techStackUsed: ["React", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    url: "https://emailapp-one.vercel.app/",
+    imgUrl: "/projects/emailAppUi.png",
+    title: "Email We App UI",
+    description: "",
+    techStackUsed: ["React", "Redux", "Tailwind CSS"],
+  },
+];
+
+export const miniGamesProjects = [
+  {
+    url: "https://rohitsignin.github.io/Space-Shooter/",
+    imgUrl: "/projects/spaceShooter.png",
+    title: "Space Shooter",
+    description: "",
+    techStackUsed: ["Vanilla JS", "HTML", "CSS"],
+  },
+  {
+    url: "https://codepen.io/RohitSignIn/full/bGQprzr",
+    imgUrl: "../../public/projects/pingPong.png",
+    title: "Ping Pong",
+    description: "",
+    techStackUsed: ["Vanilla JS", "HTML", "CSS"],
+  },
+  {
+    url: "https://codepen.io/RohitSignIn/full/bGQpNWq",
+    imgUrl: "../../public/projects/flappyBird.png",
+    title: "Flappy Bird",
+    description: "",
+    techStackUsed: ["Vanilla JS", "HTML", "CSS"],
+  },
+];
+
+export const backendProjects = [
+  {
+    url: "https://github.com/RohitSignIn/ecommerce-backend",
+    imgUrl: "/projects/ecommerceBackend.png",
+    title: "Ecommerce Backend",
+    description: "",
+    techStackUsed: ["ExpressJS", "JWT", "CORS", "MySQL", "Prisma"],
+  },
+];
+
+export const miniProjects = [
+  {
+    url: "https://codepen.io/RohitSignIn/full/YzRrJBr",
+    imgUrl: "/projects/google-news.png",
+    title: "Google News UI",
+    description: "",
+    techStackUsed: ["HTML", "CSS"],
+  },
+  {
+    url: "https://rohitsignin.github.io/javascriptNotesTaking/",
+    imgUrl: "/projects/notes-taking.png",
+    title: "NotesTaking Web App",
+    description: "",
+    techStackUsed: ["Vanilla JS", "HTML", "SCSS"],
+  },
+  {
+    url: "https://rohitsignin.github.io/Happy-Diwali/",
+    imgUrl: "/projects/diwali-greeting.png",
+    title: "Happy Diwali Crackers",
+    description: "",
+    techStackUsed: ["jQuery", "HTML", "SCSS"],
+  },
+  {
+    url: "https://rohitsignin.github.io/Quiz-App-using-js/",
+    imgUrl: "/projects/quiz-app.png",
+    title: "Quiz Web App ",
+    description: "",
+    techStackUsed: ["Vanilla JS", "HTML", "SCSS"],
+  },
+  {
+    url: "https://rohitsignin.github.io/roc8Test-ui/test2/",
+    imgUrl: "/projects/bell-labs-ui.png",
+    title: "Bell Labs UI",
+    description: "",
+    techStackUsed: ["HTML", "CSS"],
+  },
+  {
+    url: "https://rohitsignin.github.io/roc8Test-ui/test1.html",
+    imgUrl: "/projects/mobile-ui.png",
+    title: "Mobile UI",
+    description: "",
+    techStackUsed: ["HTML", "CSS"],
   },
 ];
