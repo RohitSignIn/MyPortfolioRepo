@@ -9,25 +9,34 @@ const Footer = () => {
         <section className='flex flex-col items-center'>
           <section className='flex justify-evenly items-center rounded-lg backdrop-blur-lg border-b-2 border-t-2 border-borderColor p-8'>
             <section className='px-6'>
-              <a href='#' className='text-6xl text-textColor1'>
+              <a
+                href='#'
+                className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
+              >
                 <MdMail />
               </a>
             </section>
 
             <section className='px-6'>
-              <a href='#' className='text-6xl text-textColor1'>
+              <a
+                href='#'
+                className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
+              >
                 <IoLogoWhatsapp />
               </a>
             </section>
 
             <section className='px-6'>
-              <a href='#' className='text-6xl text-textColor1'>
+              <a
+                href='#'
+                className='text-4xl md:text-5xl lg:text-6xl text-textColor1'
+              >
                 <IoCall />
               </a>
             </section>
           </section>
           <section className='py-4'>
-            <p className='text-xl italic text-textColor2'>
+            <p className='text-lg italic text-textColor2'>
               Don't comment bad code- rewrite it.
             </p>
           </section>

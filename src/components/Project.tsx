@@ -14,7 +14,7 @@ const Project: React.FC<receivedProps> = ({ projectData }) => {
   return (
     <section
       title={projectData.title}
-      className='bg-background1 text-textColor1 bg-opacity-20 backdrop-blur-lg rounded-lg drop-shadow-lg overflow-hidden'
+      className='bg-background1 text-textColor1 bg-opacity-20 backdrop-blur-lg rounded-lg drop-shadow-lg overflow-hidden cursor-pointer hover:shadow-xl shadow-cyan-500/50'
       onClick={() => openNewTab(projectData.url)}
     >
       <section>
