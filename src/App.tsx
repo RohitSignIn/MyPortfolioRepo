@@ -23,6 +23,7 @@ export default function App() {
 
       {/* Project Section STARTS */}
       <section className='flex flex-col gap-4 items-center w-full min-h-[100vh] px-4 py-8 bg-background2 text-textColor1'>
+        <p className='text-2xl'>Check out my projects</p>
         <ProjectContainer title='Frontend - Live' projectsData={liveProjects} />
         <ProjectContainer
           title='Backend - Github'
