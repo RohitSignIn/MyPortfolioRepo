@@ -11,7 +11,7 @@ import {
 
 export default function App() {
   return (
-    <section>
+    <section className='bg-background2'>
       <section className='hidden md:block'>
         <SocialLinks />
       </section>
@@ -24,11 +24,14 @@ export default function App() {
       {/* Project Section STARTS */}
       <section className='flex flex-col gap-4 items-center w-full min-h-[100vh] px-4 py-8 bg-background2 text-textColor1'>
         <p className='text-2xl'>Check out my projects</p>
+
         <ProjectContainer title='Frontend - Live' projectsData={liveProjects} />
+
         <ProjectContainer
           title='Backend - Github'
           projectsData={backendProjects}
         />
+
         <ProjectContainer title='Mini Games' projectsData={miniGamesProjects} />
         <ProjectContainer
           title='Mini Projects - HTML CSS JS'
