@@ -62,6 +62,13 @@ export const miniGamesProjects = [
 
 export const backendProjects = [
   {
+    url: "https://github.com/RohitSignIn/Fastify-Todo-Backend",
+    imgUrl: "/projects/fastify-todo-backend.png",
+    title: "Fastify - Todo Backend",
+    description: "",
+    techStackUsed: ["Fastify", "JWT", "CORS", "Prisma", "MySQL"],
+  },
+  {
     url: "https://github.com/RohitSignIn/ecommerce-backend",
     imgUrl: "/projects/ecommerceBackend.png",
     title: "Ecommerce Backend",
